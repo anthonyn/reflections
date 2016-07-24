@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+you create a git directory for revision info to live.  it is also not yet commited.
+
