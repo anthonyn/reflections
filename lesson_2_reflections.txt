@@ -2,3 +2,42 @@ What happens when you initialize a repository? Why do you need to do it?
 
 you create a git directory for revision info to live.  it is also not yet commited.
 
+anicolaides (master #) reflections $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lesson_1_reflections.txt
+        lesson_2_reflections.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+it is a space where you can stage what you want to commit, to break commits up as you see fit
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+you can diff to see what is the the stage and the last commitm, and confirm its only one change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+making changes,m versions, 
+
+How do the diagrams help you visualize the branch structure?
+
+you can see the tree, and oprpahned spots
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+because there are two seperate lines of commit hostory that both contribute to the same commit
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It will try to merge what it can, but instead of making poor ddicisions, leaves the dicision making to the user
+
+
+
